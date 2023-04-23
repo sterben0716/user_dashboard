@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+
+    <link rel="stylesheet" href="input.css"/>
+</head>
+
+
+<body>
+    <section id="menu">
+        <div class="logo">
+            <img src="images/logo.png" alt"">
+            <h2>Inventory Systens</h2>
+        </div>
+				
+				<div class="items">
+					<li><i class='fas fa-home'></i><a href="#">Home</a></li>
+					<li><i class='far fa-file-alt'></i><a href="#">About</a></li>
+					<li><i class='fas fa-sign-out-alt'></i><a href="#">Logout</a></li>
+				</div>
+
+    </section>
+
+		<section id = "interface">
+			<div class="navigation">
+				<div class="n1">
+            <div>
+              <i id="menu-btn" class="fas fa-bars"></i>
+            </div>
+					<div class="search">
+						<i class="fas fa-search"></i>
+						<input type="text" placeholder="Search">
+					</div>
+				</div>
+
+				<div class="profile">
+          <i class ="far fa-bell"></i>
+					<img src="images/usericon.png" alt="">
+				</div>
+			</div>
+
+      <h3 class="i-name">
+        Dashboard
+      </h3>
+
+      
+      <dir class="board">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td> Name</td>
+              <td> Role</td>
+              <td> Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="people">
+                <img src="images/usericon.png" alt="">
+                <div class="people-de">
+                  <h5>Weshie Magallanes</h5>
+                  <p>weshiemagallanes@gmail.com</p>
+                </div>
+              </td>
+
+              <td class="role">
+                <h5>User</h5>
+              </td>
+
+              <td class="status">
+                <p>Active</p>
+              </td>
+
+            </tr>
+          </tbody>
+        </table>
+      </dir>
+
+      <div class="values">
+        <div class="val-box">
+          <i class='fas fa-paste' style='font-size:60px'></i>
+          <h3>School</h3>
+        </div>
+        <div class="val-box">
+          <i class='fas fa-tools' style='font-size:60px'></i>
+          <h3>Hardware</h3>
+        </div>
+        <div class="val-box">
+          <i class='fas fa-utensils' style='font-size:60px'></i> 
+          <h3>Kitchen</h3>
+        </div>
+        <div class="val-box">
+          <i class='fas fa-bars' style='font-size:60px'></i>
+          <h3>Etc.</h3>
+        </div>
+      </div>
+      
+
+
+		</section>
+
+		
+
+</body>
+
+</html>
